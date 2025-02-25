@@ -36,7 +36,7 @@ function App() {
     console.log('hiii 1')
     if (validateForm()) {
       console.log('hiii')
-      fetch('http://localhost:8000/api/referral/create',{
+      fetch('https://accredian-backend-task-q53i.onrender.com/api/referral/create',{
         method:"POST",
         headers:{
           'Content-Type': 'application/json'
